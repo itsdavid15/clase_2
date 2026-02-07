@@ -1,0 +1,27 @@
+git add * = agrega unicamente archivos modificados no los eliminados
+
+git add --all agrega todo
+
+git add -A agrega todo pero es mas corto
+
+git add . agrega unicamente lo que esta en el directorio pero no las subcarpetas
+
+git reset quita los cambios que estan en staging
+
+git reset HEAD~ quita los cambios del commit local
+
+git rm "filename" remueve un archivo y lo agrega
+
+git reset HEAD~ tambien revierte el ultimo commit
+
+git reset --hard para cuando se eliminan archivos
+
+git rm -f "filename" para eliminar un archivo con cambios
+
+git rm -r "nombreDeCarpeta" elimina una carpeta y los sub archivos dentro de ella
+
+git log ver el historial
+
+git log --oneline
+
+git branch a solas muestras las branches disponibles
